@@ -1,38 +1,16 @@
-# Slim Framework 4 Skeleton Application
+# Noodler App: Final Project at iO Academy Bootcamp
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 4 application. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation along with the PHP-View template renderer. It also uses the Monolog logger.
+## The Project 
+The aim of the project was to build a full stack social media app with various features. This repo contains the back end code for the project.
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+## Tech
+- PHP
+- Slim Framework
+- MySQL
 
-## Install the Application
-
-Create a new directory with your project name, e.g:
-
-
-```bash
-mkdir academyProject
-```
-
-Once inside the new directory, clone this repo:
-
-```bash
-git clone git@github.com:Mayden-Academy/slim4-skeleton.git .
-```
-
-One cloned, you must install the slim components by running:
-
-```bash
-composer install
-```
-
-To run the application locally:
-```bash
-composer start
-
-```
-Run this command in the application directory to run the test suite
-```bash
-composer test
-```
-
-That's it! Now go build something cool.
+## Features
+- New users are able to create a new account if not already registered.
+- Once successfully registered, users can log in.
+- Passwords are saved securely in the database using password hashing.
+- Once logged in, users can create new posts which are saved to the database.
+- The users posts are displayed in chronological order on the user's profile page.
